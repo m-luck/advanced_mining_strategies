@@ -1,0 +1,14 @@
+edu/nyu/crypto/csci3033/blockchain/BlockReward.class
+edu/nyu/crypto/csci3033/blockchain/BitcoinNetwork.class
+edu/nyu/crypto/csci3033/blockchain/NormalChurnFunction.class
+edu/nyu/crypto/csci3033/miners/BaseMiner.class
+edu/nyu/crypto/csci3033/miners/Miner.class
+edu/nyu/crypto/csci3033/blockchain/LognormalReward.class
+edu/nyu/crypto/csci3033/blockchain/SimulationRandom.class
+edu/nyu/crypto/csci3033/blockchain/SimulationUtils.class
+edu/nyu/crypto/csci3033/blockchain/NetworkStatistics.class
+edu/nyu/crypto/csci3033/blockchain/ChurnFunction.class
+edu/nyu/crypto/csci3033/blockchain/BitcoinNetwork$BlockMessage.class
+edu/nyu/crypto/csci3033/blockchain/BitcoinNetwork$1.class
+edu/nyu/crypto/csci3033/miners/CompliantMiner.class
+edu/nyu/crypto/csci3033/blockchain/Block.class
