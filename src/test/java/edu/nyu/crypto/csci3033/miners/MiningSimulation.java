@@ -47,7 +47,7 @@ public class MiningSimulation {
 */
 
     // TODO: Uncomment this part when testing your miners.
-    @Test
+/*    @Test
     public void simulate51PercentAttack1() {
         Miner attacker = new MajorityMiner("Attacker", 520, 1);
         Miner miner2 = new CompliantMiner("Miner2", 200, 1);
@@ -62,7 +62,7 @@ public class MiningSimulation {
         Map<String, Double> relativeProfits = runSimulation(miners, BlockReward.ONE, churn);
         if (relativeProfits.get(attacker.getId()) > .55) {
         	System.out.println("profits greater than .55\n");
-        } else {System.out.println("not greater than .55\n");}
+        } else {System.out.println("not greater than .55\n"); }
     }
 
     @Test
@@ -79,11 +79,11 @@ public class MiningSimulation {
         ChurnFunction churn = new NormalChurnFunction(2, 3, rng);
         Map<String, Double> relativeProfits = runSimulation(miners, BlockReward.ONE, churn);
         if (relativeProfits.get(attacker.getId()) > .6) {
-          System.out.println("profits greater than .6\n");
-        } else {System.out.println("not greater than .6\n");}
-    }
+          System.out.println("profits greater than .6");
+        }else {System.out.println("not greater than .6\n"); }
+    }*/
 
-/*    @Test
+    @Test
     public void simulateSelfishMining1() {
         Miner attacker = new SelfishMiner("Attacker", 34, 1);
         Miner miner2 = new CompliantMiner("Miner2", 15, 1);
@@ -97,7 +97,7 @@ public class MiningSimulation {
         double attackerProfits = relativeProfits.get(attacker.getId());
         if (attackerProfits > .375) {
         	System.out.println("profits greater than .375");
-        }
+        }else {System.out.println("not greater than .375\n"); }
     }
 
     @Test
@@ -116,8 +116,8 @@ public class MiningSimulation {
         double attackerProfits = relativeProfits.get(attacker.getId());
         if (attackerProfits > .35) {
           System.out.println("profits greater than .35");
-        }
-    }*/
+        }else {System.out.println("not greater than .35\n"); }
+    }
 
 /*    @Test
     public void simulateFeeSniping1() {

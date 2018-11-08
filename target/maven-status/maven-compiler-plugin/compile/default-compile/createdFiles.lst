@@ -1,4 +1,5 @@
 edu/nyu/crypto/csci3033/blockchain/BlockReward.class
+edu/nyu/crypto/csci3033/miners/SelfishMiner.class
 edu/nyu/crypto/csci3033/blockchain/BitcoinNetwork.class
 edu/nyu/crypto/csci3033/blockchain/NormalChurnFunction.class
 edu/nyu/crypto/csci3033/miners/BaseMiner.class
