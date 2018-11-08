@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< edu.nyu.crypto.csci3033:MiningProject >----------------
+[INFO] Building MiningProject 0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MiningProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MiningProject ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 13 source files to /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MiningProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MiningProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MiningProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MiningProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MiningProject ---
+[INFO] Surefire report directory: /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.nyu.crypto.csci3033.miners.MiningSimulation
+02:50:05.809 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Attacker has made 52.56002734413382% of the profits
+02:50:05.810 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner2 has made 7.5978228829081536% of the profits
+02:50:05.810 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner3 has made 10.293101232921465% of the profits
+02:50:05.810 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner4 has made 9.920226680853816% of the profits
+02:50:05.810 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner5 has made 10.61214412105322% of the profits
+02:50:05.810 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner6 has made 9.01667773812953% of the profits
+02:50:05.810 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Satoshi has made 0.0% of the profits
+not greater than .55
+
+02:50:12.767 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Attacker has made 49.475897906268344% of the profits
+02:50:12.768 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner2 has made 12.396522403267742% of the profits
+02:50:12.768 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner3 has made 7.504902861772312% of the profits
+02:50:12.768 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner4 has made 11.694150649461891% of the profits
+02:50:12.768 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner5 has made 8.439346380269349% of the profits
+02:50:12.768 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner6 has made 10.489179798960361% of the profits
+02:50:12.768 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Satoshi has made 0.0% of the profits
+not greater than .6
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.78 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.380 s
+[INFO] Finished at: 2018-11-08T02:50:12-05:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+#surefire_0
+#Thu Nov 08 04:33:59 EST 2018
+test=MiningSimulation
+basedir=/home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies
+user.dir=/home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies
+localRepository=/home/ashkarav/.m2/repository

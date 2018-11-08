@@ -1,0 +1,171 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< edu.nyu.crypto.csci3033:MiningProject >----------------
+[INFO] Building MiningProject 0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MiningProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MiningProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MiningProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MiningProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MiningProject ---
+[INFO] Surefire report directory: /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.nyu.crypto.csci3033.miners.MiningSimulation
+02:35:20.116 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Attacker has made 67.35766880518848% of the profits
+02:35:20.117 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner2 has made 4.551466679852158% of the profits
+02:35:20.117 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner3 has made 7.997000300794014% of the profits
+02:35:20.117 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner4 has made 5.95269979795982% of the profits
+02:35:20.117 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner5 has made 6.215997571672071% of the profits
+02:35:20.117 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner6 has made 7.925166844533446% of the profits
+02:35:20.117 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Satoshi has made 0.0% of the profits
+profits greater than .55
+
+02:35:29.746 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Attacker has made 56.725836500484384% of the profits
+02:35:29.747 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner2 has made 9.682539682539684% of the profits
+02:35:29.747 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner3 has made 5.510395707578806% of the profits
+02:35:29.747 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner4 has made 10.432222967434235% of the profits
+02:35:29.747 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner5 has made 8.30061852597064% of the profits
+02:35:29.747 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner6 has made 9.34838661599225% of the profits
+02:35:29.747 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Satoshi has made 0.0% of the profits
+not greater than .6
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.752 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.287 s
+[INFO] Finished at: 2018-11-08T02:35:29-05:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< edu.nyu.crypto.csci3033:MiningProject >----------------
+[INFO] Building MiningProject 0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MiningProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MiningProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MiningProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MiningProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MiningProject ---
+[INFO] Surefire report directory: /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.nyu.crypto.csci3033.miners.MiningSimulation
+02:35:49.056 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Attacker has made 68.80640389407591% of the profits
+02:35:49.057 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner2 has made 4.55698787781656% of the profits
+02:35:49.057 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner3 has made 7.794675997169079% of the profits
+02:35:49.057 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner4 has made 5.678435221417417% of the profits
+02:35:49.057 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner5 has made 5.9199711802073836% of the profits
+02:35:49.057 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner6 has made 7.2435258293136435% of the profits
+02:35:49.057 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Satoshi has made 0.0% of the profits
+profits greater than .55
+
+02:36:00.671 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Attacker has made 59.31180008475185% of the profits
+02:36:00.671 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner2 has made 8.814812244908074% of the profits
+02:36:00.671 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner3 has made 5.0941563349532% of the profits
+02:36:00.671 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner4 has made 9.919064458492656% of the profits
+02:36:00.671 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner5 has made 8.118707112960342% of the profits
+02:36:00.672 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner6 has made 8.741459763933873% of the profits
+02:36:00.672 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Satoshi has made 0.0% of the profits
+not greater than .6
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.661 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.194 s
+[INFO] Finished at: 2018-11-08T02:36:00-05:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< edu.nyu.crypto.csci3033:MiningProject >----------------
+[INFO] Building MiningProject 0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MiningProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ MiningProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MiningProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ MiningProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MiningProject ---
+[INFO] Surefire report directory: /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.nyu.crypto.csci3033.miners.MiningSimulation
+02:36:25.468 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Attacker has made 68.74470514567756% of the profits
+02:36:25.469 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner2 has made 4.559028948509225% of the profits
+02:36:25.469 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner3 has made 7.8087590703156655% of the profits
+02:36:25.469 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner4 has made 5.693084034827745% of the profits
+02:36:25.469 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner5 has made 5.9241451023837115% of the profits
+02:36:25.469 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner6 has made 7.270277698286097% of the profits
+02:36:25.470 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Satoshi has made 0.0% of the profits
+profits greater than .55
+
+02:36:36.556 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Attacker has made 58.50329173626806% of the profits
+02:36:36.557 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner2 has made 9.08768137303069% of the profits
+02:36:36.557 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner3 has made 5.171792604238315% of the profits
+02:36:36.557 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner4 has made 10.063345452163375% of the profits
+02:36:36.557 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner5 has made 8.277619468736694% of the profits
+02:36:36.557 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Miner6 has made 8.896269365562869% of the profits
+02:36:36.557 [main] INFO  edu.nyu.crypto.csci3033.miners.MiningSimulation - Satoshi has made 0.0% of the profits
+not greater than .6
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.056 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 23.623 s
+[INFO] Finished at: 2018-11-08T02:36:36-05:00
+[INFO] ------------------------------------------------------------------------

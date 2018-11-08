@@ -11,4 +11,5 @@ edu/nyu/crypto/csci3033/blockchain/ChurnFunction.class
 edu/nyu/crypto/csci3033/blockchain/BitcoinNetwork$BlockMessage.class
 edu/nyu/crypto/csci3033/blockchain/BitcoinNetwork$1.class
 edu/nyu/crypto/csci3033/miners/CompliantMiner.class
+edu/nyu/crypto/csci3033/miners/MajorityMiner.class
 edu/nyu/crypto/csci3033/blockchain/Block.class
