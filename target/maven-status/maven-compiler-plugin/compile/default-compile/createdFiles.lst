@@ -5,6 +5,7 @@ edu/nyu/crypto/csci3033/blockchain/NormalChurnFunction.class
 edu/nyu/crypto/csci3033/miners/BaseMiner.class
 edu/nyu/crypto/csci3033/miners/Miner.class
 edu/nyu/crypto/csci3033/blockchain/LognormalReward.class
+edu/nyu/crypto/csci3033/miners/FeeSnipingMiner.class
 edu/nyu/crypto/csci3033/blockchain/SimulationRandom.class
 edu/nyu/crypto/csci3033/blockchain/SimulationUtils.class
 edu/nyu/crypto/csci3033/blockchain/NetworkStatistics.class

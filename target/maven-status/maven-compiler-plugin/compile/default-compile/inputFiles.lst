@@ -11,4 +11,5 @@
 /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/src/main/java/edu/nyu/crypto/csci3033/miners/Miner.java
 /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/src/main/java/edu/nyu/crypto/csci3033/blockchain/BitcoinNetwork.java
 /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/src/main/java/edu/nyu/crypto/csci3033/miners/SelfishMiner.java
+/home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/src/main/java/edu/nyu/crypto/csci3033/miners/FeeSnipingMiner.java
 /home/ashkarav/COURANT-GIT/FALL2018/CRYPTO/P2/advanced_mining_strategies/src/main/java/edu/nyu/crypto/csci3033/blockchain/SimulationRandom.java

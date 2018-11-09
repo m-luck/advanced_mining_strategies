@@ -83,45 +83,45 @@ public class MiningSimulation {
         }else {System.out.println("not greater than .6\n"); }
     }*/
 
+    // @Test
+    // public void simulateSelfishMining1() {
+    //     Miner attacker = new SelfishMiner("Attacker", 34, 1);
+    //     Miner miner2 = new CompliantMiner("Miner2", 15, 1);
+    //     Miner miner3 = new CompliantMiner("Miner3", 10, 1);
+    //     Miner miner4 = new CompliantMiner("Miner4", 15, 1);
+    //     Miner miner5 = new CompliantMiner("Miner5", 10, 1);
+    //     Miner miner6 = new CompliantMiner("Miner6", 10, 1);
+    //
+    //     ImmutableList<Miner> miners = ImmutableList.of(attacker, miner2, miner3, miner4, miner5, miner6);
+    //     Map<String, Double> relativeProfits = runSimulation(miners, BlockReward.ONE, ChurnFunction.NO_CHURN);
+    //     double attackerProfits = relativeProfits.get(attacker.getId());
+    //     if (attackerProfits > .375) {
+    //     	System.out.println("profits greater than .375");
+    //     }else {System.out.println("not greater than .375\n"); }
+    // }
+    //
+    // @Test
+    // public void simulateSelfishMining2() {
+    //     Miner attacker = new SelfishMiner("Attacker", 270, 20);
+    //     Miner miner2 = new CompliantMiner("Miner2", 150, 1);
+    //     Miner miner3 = new CompliantMiner("Miner3", 100, 1);
+    //     Miner miner4 = new CompliantMiner("Miner4", 150, 1);
+    //     Miner miner5 = new CompliantMiner("Miner5", 100, 1);
+    //     Miner miner6 = new CompliantMiner("Miner6", 100, 1);
+    //
+    //     ImmutableList<Miner> miners = ImmutableList.of(attacker, miner2, miner3, miner4, miner5, miner6);
+    //     SimulationRandom rng = new SimulationRandom(3456);
+    //     ChurnFunction churn = new NormalChurnFunction(1, 1,rng);
+    //     Map<String, Double> relativeProfits = runSimulation(miners, BlockReward.ONE, churn);
+    //     double attackerProfits = relativeProfits.get(attacker.getId());
+    //     if (attackerProfits > .35) {
+    //       System.out.println("profits greater than .35");
+    //     }else {System.out.println("not greater than .35\n"); }
+    // }
+
     @Test
-    public void simulateSelfishMining1() {
-        Miner attacker = new SelfishMiner("Attacker", 34, 1);
-        Miner miner2 = new CompliantMiner("Miner2", 15, 1);
-        Miner miner3 = new CompliantMiner("Miner3", 10, 1);
-        Miner miner4 = new CompliantMiner("Miner4", 15, 1);
-        Miner miner5 = new CompliantMiner("Miner5", 10, 1);
-        Miner miner6 = new CompliantMiner("Miner6", 10, 1);
-
-        ImmutableList<Miner> miners = ImmutableList.of(attacker, miner2, miner3, miner4, miner5, miner6);
-        Map<String, Double> relativeProfits = runSimulation(miners, BlockReward.ONE, ChurnFunction.NO_CHURN);
-        double attackerProfits = relativeProfits.get(attacker.getId());
-        if (attackerProfits > .375) {
-        	System.out.println("profits greater than .375");
-        }else {System.out.println("not greater than .375\n"); }
-    }
-
-    @Test
-    public void simulateSelfishMining2() {
-        Miner attacker = new SelfishMiner("Attacker", 270, 20);
-        Miner miner2 = new CompliantMiner("Miner2", 150, 1);
-        Miner miner3 = new CompliantMiner("Miner3", 100, 1);
-        Miner miner4 = new CompliantMiner("Miner4", 150, 1);
-        Miner miner5 = new CompliantMiner("Miner5", 100, 1);
-        Miner miner6 = new CompliantMiner("Miner6", 100, 1);
-
-        ImmutableList<Miner> miners = ImmutableList.of(attacker, miner2, miner3, miner4, miner5, miner6);
-        SimulationRandom rng = new SimulationRandom(3456);
-        ChurnFunction churn = new NormalChurnFunction(1, 1,rng);
-        Map<String, Double> relativeProfits = runSimulation(miners, BlockReward.ONE, churn);
-        double attackerProfits = relativeProfits.get(attacker.getId());
-        if (attackerProfits > .35) {
-          System.out.println("profits greater than .35");
-        }else {System.out.println("not greater than .35\n"); }
-    }
-
-/*    @Test
     public void simulateFeeSniping1() {
-        Miner attacker = new CompliantMiner("Attacker", 300, 1);
+        Miner attacker = new FeeSnipingMiner("Attacker", 300, 1);
         Miner miner2 = new CompliantMiner("Miner2", 150, 1);
         Miner miner3 = new CompliantMiner("Miner3", 150, 1);
         Miner miner4 = new CompliantMiner("Miner4", 200, 1);
@@ -136,11 +136,12 @@ public class MiningSimulation {
         if (attackerProfits > .325) {
         	System.out.println("profits greater than .325");
         }
+        else {System.out.println("not greater than .325\n"); }
     }
 
     @Test
     public void simulateFeeSniping2() {
-        Miner attacker = new CompliantMiner("Attacker", 290, 1);
+        Miner attacker = new FeeSnipingMiner("Attacker", 290, 1);
         Miner miner2 = new CompliantMiner("Miner2", 220, 1);
         Miner miner3 = new CompliantMiner("Miner3", 190, 1);
         Miner miner4 = new CompliantMiner("Miner4", 150, 1);
@@ -155,8 +156,9 @@ public class MiningSimulation {
         double attackerProfits = relativeProfits.get(attacker.getId());
         if (attackerProfits > .31) {
         	System.out.println("profits greater than .31");
-        }
-    }*/
+        }else {System.out.println("not greater than .31\n"); }
+
+    }
 
 
     /**
